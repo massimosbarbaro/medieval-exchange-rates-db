@@ -1,5 +1,7 @@
 # Monete: exchange rates and moneys of account in medieval Italy, 1252–1508
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23207793.svg)](https://doi.org/10.5281/zenodo.23207793)
+
 *Cambi e monete di conto nell'Italia medievale, 1252–1508*
 
 **db** · 1996–2007 · version 2007  
@@ -44,7 +46,7 @@ The value of a quotation in local denari is `Sum(Qta × UM.Rapporto)` (soldo = 1
 
 ## How to cite
 
-> Sbarbaro, Massimo. 2007. *Monete: exchange rates and moneys of account in medieval Italy, 1252–1508*. Dataset (db, 1996–2007), version 2007. Zenodo.
+> Sbarbaro, Massimo. 2007. *Monete: exchange rates and moneys of account in medieval Italy, 1252–1508*. Dataset (db, 1996–2007), version 2007. Zenodo. https://doi.org/10.5281/zenodo.23207793.
 
 ## License
 

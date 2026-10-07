@@ -9,6 +9,7 @@ authors:
     given-names: Massimo
     orcid: "https://orcid.org/0009-0006-8965-9013"
 license: CC-BY-4.0
+doi: "10.5281/zenodo.23207793"
 repository-code: "https://github.com/massimosbarbaro/medieval-exchange-rates-db"
 keywords:
   - "medieval history"
