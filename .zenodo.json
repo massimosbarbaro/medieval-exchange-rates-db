@@ -1,0 +1,25 @@
+{
+  "title": "Monete: exchange rates and moneys of account in medieval Italy, 1252–1508 (db, 1996–2007)",
+  "upload_type": "dataset",
+  "publication_date": "2007-11-04",
+  "description": "<p><em>Cambi e monete di conto nell'Italia medievale, 1252–1508</em></p><p>A database of exchange rates of the gold florin and other coins against the local moneys of account in 28 places, mainly Italian, between 1252 and 1508, compiled from published collections. Each dated quotation is stored once, with the quantities of each money that compose it, so that every rate can be converted to local denari and compared across places and time. An additional table records the totals of the public debt of Venice and Florence. About fifty chart reports show the series of Italian places and regions, quarterly averages for Siena, inflation bands and the public debt of Venice.</p><p>Sources: Values compiled from published works (field `IdRif`): C. M. Cipolla, Studi di storia della moneta. I. I movimenti dei cambi in Italia dal secolo XIII al XV (1948) – 9,234 quotations; F. C. Lane and R. C. Mueller, Money and Banking in Medieval and Renaissance Venice (1985) – 1,045; Ch.-M. de La Roncière, Prix et salaires à Florence au XIVe siècle – 823; La Roncière, Un changeur florentin du Trecento: Lippo di Fede del Sega – 68; A. Cagnin, Storia di Treviso – 21; G. Luzzatto, Il debito pubblico della Repubblica di Venezia; C. M. Cipolla, Il fiorino e il quattrino; M. Ginatempo, Prima del debito; R. Barducci, Politica e speculazione finanziaria a Firenze (1979). The 6,989 quotations taken from P. Spufford, Handbook of Medieval Exchange (London: Royal Historical Society, 1986) and the gold–silver ratios have been removed from this publication, together with the chart reports built on them (European exchanges and gold–silver ratios); the structure, the queries and the other reports are unchanged. Users of the data should cite the original works for the values they use.</p><p>Database designed and compiled by Massimo Sbarbaro in 1996–2007.</p>",
+  "creators": [
+    {
+      "name": "Sbarbaro, Massimo",
+      "orcid": "0009-0006-8965-9013"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "medieval history",
+    "monetary history",
+    "exchange rates",
+    "florin",
+    "moneys of account",
+    "database"
+  ],
+  "version": "2007",
+  "language": "eng",
+  "references": [],
+  "notes": "Database compiled 1996–2007."
+}

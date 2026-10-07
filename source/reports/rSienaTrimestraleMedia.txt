@@ -1,0 +1,95 @@
+Version =19
+VersionRequired =19
+Checksum =234827549
+Begin Report
+    LayoutForPrint = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularFamily =0
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =19955
+    DatasheetFontHeight =10
+    ItemSuffix =1
+    Left =270
+    Right =12090
+    Bottom =7470
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        ' (binary data omitted)
+    End
+    GUID = Begin
+        ' (binary data omitted)
+    End
+    NameMap = Begin
+        ' (binary data omitted)
+    End
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        ' (binary data omitted)
+    End
+    PrtDevMode = Begin
+        ' (binary data omitted)
+    End
+    PrtDevNames = Begin
+        ' (binary data omitted)
+    End
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin UnboundObjectFrame
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+        End
+        Begin PageHeader
+            Height =0
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                ' (binary data omitted)
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =13320
+            Name ="Corpo"
+            GUID = Begin
+                ' (binary data omitted)
+            End
+            Begin
+                Begin UnboundObjectFrame
+                    ColumnHeads = NotDefault
+                    Locked = NotDefault
+                    RowSourceTypeInt =2
+                    OverlapFlags =81
+                    Left =113
+                    Width =19546
+                    Height =13320
+                    Name ="NonAssociatoOLE0"
+                    OleData = Begin
+                        ' (binary data omitted)
+                    End
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT (Format([Data],\"q\"\" '\"\"yyyy\")) AS Espr1, Avg(qSienaMediaDef.Tot) AS"
+                        " MediaDiTot FROM qSienaMediaDef GROUP BY (Format([Data],\"q\"\" '\"\"yyyy\")), ("
+                        "Year([Data])*4+DatePart(\"q\",[Data])-1), qSienaMediaDef.Anno ORDER BY qSienaMed"
+                        "iaDef.Anno;"
+                    Class ="MSGraph.Chart.8"
+                    OLEClass ="Grafico di Microsoft Graph 2000"
+                    GUID = Begin
+                        ' (binary data omitted)
+                    End
+                End
+            End
+        End
+        Begin PageFooter
+            Height =0
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                ' (binary data omitted)
+            End
+        End
+    End
+End

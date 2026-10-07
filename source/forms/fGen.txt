@@ -1,0 +1,196 @@
+Version =19
+VersionRequired =19
+Checksum =-234827585
+Begin Form
+    RecordSelectors = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    ScrollBars =0
+    TabularFamily =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =4478
+    DatasheetFontHeight =10
+    ItemSuffix =5
+    Left =5220
+    Top =1470
+    Right =9900
+    Bottom =5115
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        ' (binary data omitted)
+    End
+    GUID = Begin
+        ' (binary data omitted)
+    End
+    NameMap = Begin
+        ' (binary data omitted)
+    End
+    DatasheetFontName ="Arial"
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontName ="Tahoma"
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            FontWeight =400
+            ForeColor =-2147483630
+            FontName ="Tahoma"
+        End
+        Begin FormHeader
+            Height =1134
+            BackColor =6723891
+            Name ="IntestazioneMaschera"
+            GUID = Begin
+                ' (binary data omitted)
+            End
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    TextFontFamily =18
+                    Left =1474
+                    Top =226
+                    Width =1320
+                    Height =540
+                    FontSize =22
+                    FontWeight =700
+                    Name ="Etichetta3"
+                    Caption ="Cambi"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        ' (binary data omitted)
+                    End
+                End
+            End
+        End
+        Begin Section
+            Height =1190
+            BackColor =-2147483633
+            Name ="Corpo"
+            GUID = Begin
+                ' (binary data omitted)
+            End
+            Begin
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =1020
+                    Top =396
+                    Width =780
+                    Height =405
+                    Name ="cmdDati"
+                    Caption ="Dati"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        ' (binary data omitted)
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =2664
+                    Top =396
+                    Width =780
+                    Height =405
+                    TabIndex =1
+                    Name ="Comando2"
+                    Caption ="Stampe"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        ' (binary data omitted)
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =1134
+            BackColor =6723891
+            Name ="PièDiPaginaMaschera"
+            GUID = Begin
+                ' (binary data omitted)
+            End
+            Begin
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =3458
+                    Top =340
+                    Width =576
+                    Height =576
+                    Name ="Comando4"
+                    Caption ="Comando4"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        ' (binary data omitted)
+                    End
+                    ObjectPalette = Begin
+                        ' (binary data omitted)
+                    End
+                    ControlTipText ="Chiudi applicazione"
+                    GUID = Begin
+                        ' (binary data omitted)
+                    End
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+
+Private Sub cmdDati_Click()
+On Error GoTo Err_cmdDati_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "fAnno"
+    DoCmd.OpenForm stDocName, , , stLinkCriteria
+
+Exit_cmdDati_Click:
+    Exit Sub
+
+Err_cmdDati_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdDati_Click
+    
+End Sub
+Private Sub Comando2_Click()
+On Error GoTo Err_Comando2_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "fPrint"
+    DoCmd.OpenForm stDocName, , , stLinkCriteria
+
+Exit_Comando2_Click:
+    Exit Sub
+
+Err_Comando2_Click:
+    MsgBox Err.Description
+    Resume Exit_Comando2_Click
+    
+End Sub
+Private Sub Comando4_Click()
+On Error GoTo Err_Comando4_Click
+
+
+    DoCmd.Quit
+
+Exit_Comando4_Click:
+    Exit Sub
+
+Err_Comando4_Click:
+    MsgBox Err.Description
+    Resume Exit_Comando4_Click
+    
+End Sub

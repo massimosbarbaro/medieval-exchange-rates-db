@@ -1,0 +1,106 @@
+Version =19
+VersionRequired =19
+Checksum =-234827586
+Begin Form
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularFamily =77
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =4618
+    DatasheetFontHeight =10
+    ItemSuffix =4
+    Left =600
+    Top =330
+    Right =5505
+    Bottom =1125
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        ' (binary data omitted)
+    End
+    GUID = Begin
+        ' (binary data omitted)
+    End
+    NameMap = Begin
+        ' (binary data omitted)
+    End
+    RecordSource ="UM"
+    Caption ="UM"
+    DatasheetFontName ="Arial"
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontName ="Tahoma"
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            OldBorderStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Tahoma"
+        End
+        Begin Section
+            Height =813
+            BackColor =-2147483633
+            Name ="Corpo"
+            GUID = Begin
+                ' (binary data omitted)
+            End
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =1984
+                    Top =113
+                    Name ="IdUm"
+                    ControlSource ="IdUm"
+                    GUID = Begin
+                        ' (binary data omitted)
+                    End
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =113
+                            Top =113
+                            Width =450
+                            Height =240
+                            Name ="Etichetta1"
+                            Caption ="IdUm"
+                            GUID = Begin
+                                ' (binary data omitted)
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =1984
+                    Top =453
+                    Width =2490
+                    TabIndex =1
+                    Name ="UM"
+                    ControlSource ="UM"
+                    GUID = Begin
+                        ' (binary data omitted)
+                    End
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =113
+                            Top =453
+                            Width =300
+                            Height =240
+                            Name ="Etichetta3"
+                            Caption ="UM"
+                            GUID = Begin
+                                ' (binary data omitted)
+                            End
+                        End
+                    End
+                End
+            End
+        End
+    End
+End

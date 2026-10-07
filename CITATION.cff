@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this database, please cite it as below."
+type: dataset
+title: "Monete: exchange rates and moneys of account in medieval Italy, 1252–1508 (db, 1996–2007)"
+version: "2007"
+date-released: "2007-11-04"
+authors:
+  - family-names: Sbarbaro
+    given-names: Massimo
+    orcid: "https://orcid.org/0009-0006-8965-9013"
+license: CC-BY-4.0
+repository-code: "https://github.com/massimosbarbaro/medieval-exchange-rates-db"
+keywords:
+  - "medieval history"
+  - "monetary history"
+  - "exchange rates"
+  - "florin"
+  - "moneys of account"
+  - "database"

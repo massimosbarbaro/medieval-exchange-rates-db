@@ -1,0 +1,237 @@
+Version =19
+VersionRequired =19
+Checksum =234827621
+Begin Form
+    AllowDesignChanges = NotDefault
+    TabularFamily =8
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =6689
+    DatasheetFontHeight =10
+    ItemSuffix =14
+    Left =1230
+    Top =1035
+    Right =8205
+    Bottom =8565
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        ' (binary data omitted)
+    End
+    GUID = Begin
+        ' (binary data omitted)
+    End
+    NameMap = Begin
+        ' (binary data omitted)
+    End
+    RecordSource ="AnQtaAu"
+    Caption ="QtaAu"
+    DatasheetFontName ="Arial"
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontName ="Tahoma"
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            OldBorderStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Tahoma"
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            Width =1701
+            LabelX =-1701
+            FontName ="Tahoma"
+        End
+        Begin Section
+            Height =623
+            BackColor =-2147483633
+            Name ="Corpo"
+            GUID = Begin
+                ' (binary data omitted)
+            End
+            Begin
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =95
+                    Left =533
+                    Top =113
+                    Width =726
+                    Name ="IdAu"
+                    ControlSource ="IdAu"
+                    GUID = Begin
+                        ' (binary data omitted)
+                    End
+                    Begin
+                        Begin Label
+                            Visible = NotDefault
+                            OverlapFlags =93
+                            Left =113
+                            Top =113
+                            Width =420
+                            Height =240
+                            Name ="Etichetta1"
+                            Caption ="IdAu"
+                            GUID = Begin
+                                ' (binary data omitted)
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =95
+                    Left =1774
+                    Top =113
+                    Width =726
+                    TabIndex =1
+                    Name ="IdL"
+                    ControlSource ="IdL"
+                    GUID = Begin
+                        ' (binary data omitted)
+                    End
+                    Begin
+                        Begin Label
+                            Visible = NotDefault
+                            OverlapFlags =93
+                            Left =1474
+                            Top =113
+                            Width =300
+                            Height =240
+                            Name ="Etichetta3"
+                            Caption ="IdL"
+                            GUID = Begin
+                                ' (binary data omitted)
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =95
+                    Left =4828
+                    Top =226
+                    Width =726
+                    Height =255
+                    TabIndex =5
+                    Name ="Parti"
+                    ControlSource ="Parti"
+                    GUID = Begin
+                        ' (binary data omitted)
+                    End
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =4423
+                            Top =226
+                            Width =405
+                            Height =240
+                            Name ="Etichetta5"
+                            Caption ="Parti"
+                            GUID = Begin
+                                ' (binary data omitted)
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =247
+                    Left =4898
+                    Top =113
+                    Width =726
+                    TabIndex =2
+                    Name ="IdRif"
+                    ControlSource ="IdRif"
+                    GUID = Begin
+                        ' (binary data omitted)
+                    End
+                    Begin
+                        Begin Label
+                            Visible = NotDefault
+                            OverlapFlags =255
+                            Left =4478
+                            Top =113
+                            Width =420
+                            Height =240
+                            Name ="Etichetta7"
+                            Caption ="IdRif"
+                            GUID = Begin
+                                ' (binary data omitted)
+                            End
+                        End
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =119
+                    ColumnCount =2
+                    ListWidth =1440
+                    Left =2608
+                    Top =226
+                    Width =1815
+                    Height =255
+                    TabIndex =4
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"10\";\"100\""
+                    GUID = Begin
+                        ' (binary data omitted)
+                    End
+                    Name ="CasellaCombinata8"
+                    ControlSource ="IdL"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT [Luogo].[IdL], [Luogo].[Luogo] FROM Luogo; "
+                    ColumnWidths ="0;1440"
+                    Begin
+                        Begin Label
+                            OverlapFlags =255
+                            Left =2098
+                            Top =226
+                            Width =510
+                            Height =240
+                            Name ="Luogo_Etichetta"
+                            Caption ="Luogo"
+                            GUID = Begin
+                                ' (binary data omitted)
+                            End
+                        End
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =247
+                    ListWidth =1440
+                    Left =605
+                    Top =226
+                    Width =1467
+                    Height =255
+                    TabIndex =3
+                    ColumnInfo ="\"\";\"\";\"8\";\"8\""
+                    GUID = Begin
+                        ' (binary data omitted)
+                    End
+                    Name ="CasellaCombinata12"
+                    ControlSource ="Data"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT [AnQtaAu].[Data] FROM AnQtaAu GROUP BY [AnQtaAu].[Data] ORDER BY [AnQtaAu"
+                        "].[Data]; "
+                    ColumnWidths ="1441"
+                    Begin
+                        Begin Label
+                            OverlapFlags =255
+                            Left =170
+                            Top =226
+                            Width =435
+                            Height =240
+                            Name ="anno_Etichetta"
+                            Caption ="anno"
+                            GUID = Begin
+                                ' (binary data omitted)
+                            End
+                        End
+                    End
+                End
+            End
+        End
+    End
+End
